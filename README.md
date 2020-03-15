@@ -40,7 +40,7 @@ To use this template, make sure you have the following prerequisites:
 
 ### Initialize a new project
 
-To create a new project using this template run the following command in your terminal:
+To create a new project using this template, create a new folder, navigate to your new folder in your terminal, and run the following command:
 
 ```bash
 sam init --location gh:serverlesspub/sam-ts
