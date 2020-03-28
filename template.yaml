@@ -1,6 +1,6 @@
 AWSTemplateFormatVersion: '2010-09-09'
 Transform: AWS::Serverless-2016-10-31
-Description: Vacation Tracker API
+Description: AWS SAM app with TypeScript
 
 # More info about Globals: https://github.com/awslabs/serverless-application-model/blob/master/docs/globals.rst
 Globals:
@@ -12,7 +12,7 @@ Resources:
   HelloWorld:
     Type: AWS::Serverless::Function
     Properties:
-      CodeUri: build/hello-world
+      CodeUri: src/hello-world
       Handler: lambda.handler
 
 Outputs:

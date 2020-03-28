@@ -94,6 +94,11 @@ npm run lint
 
 TBA
 
+### Credits
+
+- The initial TypeScript setup is created by [Heitor Lessa](https://mobile.twitter.com/heitor_lessa) in his excellent Twitch series [AWS Serverless Airline Booking](https://github.com/aws-samples/aws-serverless-airline-booking).
+- This app uses the [AWS SAM webpack plugin](https://github.com/graphboss/aws-sam-webpack-plugin) by [Rich Buggy](https://mobile.twitter.com/richbuggy).
+
 ## License
 
 MIT, see [LICENSE](LICENSE).

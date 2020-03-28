@@ -2,3 +2,6 @@ build
 samconfig.toml
 node_modules
 info
+.aws-sam
+.vscode
+.DS_Store
